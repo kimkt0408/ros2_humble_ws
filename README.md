@@ -12,6 +12,24 @@ This repository contains a ROS 2 Humble workspace (`ros2_humble_ws`) preconfigur
 
 ---
 
+## 🔧 First-Time Docker Setup Tip
+
+If you recently installed Docker and added your user to the `docker` group (to avoid needing `sudo`), **you must either**:
+
+- Run this in your terminal to refresh group permissions:
+
+  ```bash
+  newgrp docker
+  ```
+
+- Or **log out and log back in**
+
+Otherwise, you'll see a permission error like:
+
+```
+permission denied while trying to connect to the Docker daemon socket
+```
+
 ## 🚀 1. Build the Docker Image
 
 Run the following from the `.devcontainer/` folder inside this workspace:
