@@ -30,6 +30,8 @@ Otherwise, you'll see a permission error like:
 permission denied while trying to connect to the Docker daemon socket
 ```
 
+---
+
 ## 🚀 1. Build the Docker Image
 
 Run the following from the `.devcontainer/` folder inside this workspace:
