@@ -7,7 +7,7 @@ This repository contains a ROS 2 Humble workspace (`ros2_humble_ws`) preconfigur
 ## 📦 Requirements
 
 - Ubuntu 20.04 or 22.04
-- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Docker](https://docs.ros.org/en/humble/How-To-Guides/Setup-ROS-2-with-VSCode-and-Docker-Container.html)
 - X11 support for GUI tools like `turtlesim` or `rviz2`
 
 ---
