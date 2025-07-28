@@ -25,7 +25,8 @@ RUN apt-get update && apt-get install -y \
     ros-humble-gazebo-ros \
     git \
     && rm -rf /var/lib/apt/lists/*
-ENV SHELL /bin/bash
+
+ENV SHELL=/bin/bash
 
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
