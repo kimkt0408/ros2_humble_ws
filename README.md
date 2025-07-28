@@ -73,7 +73,7 @@ docker run -it \
 - Open a second terminal and run the following to enter the same container again:
 
   ```bash
-  docker exec -it ros2_humble_dev bash
+  docker exec -it ros2_humble bash
   ```
 
 - If you want to list running containers, or stop/delete them, run the followings:
