@@ -81,6 +81,7 @@ docker run -it \
   ```bash
   docker ps # To list running containers
   docker ps -a # To list all containers (including stopped ones)
+  docker restart <container_name_or_id> # To restart the container listed in docker ps -a
   docker stop <container_name_or_id> # To stop a running containers
   docker rm <container_name_or_id> # To delete (remove) a stopped container
   ```
